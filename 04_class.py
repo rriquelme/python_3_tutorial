@@ -1,3 +1,5 @@
+# What is a class? objects that contain data and functions
+
 print('Class:')
 
 class bike(object): # This is a class of a bike
