@@ -12,7 +12,7 @@ Python is an open source object-oriented interpreted programming language.
 - 02_loop.py - For, while functions explained and also if statements.
 - 03_function.py - How to create functions.
 - 04_class.py - How to create classes.
-- 05_numpy.py - TODO
+- 05_numpy.py - Basic use of ndarrays, could be improved but the basic is already there.
 - 06_pandas.py - TODO
 - 0_os.py - TODO
 - 0_sys.py - TODO
