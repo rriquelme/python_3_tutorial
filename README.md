@@ -13,7 +13,7 @@ Python is an open source object-oriented interpreted programming language.
 - 03_function.py - How to create functions.
 - 04_class.py - How to create classes.
 - 05_numpy.py - Basic use of ndarrays, could be improved but the basic is already there.
-- 06_pandas.py - TODO
+- 06_pandas.py - WIP
 - 0_os.py - TODO
 - 0_sys.py - TODO
 - 0_threading.py - TODO
