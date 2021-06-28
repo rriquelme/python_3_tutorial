@@ -25,3 +25,6 @@ Python is an open source object-oriented interpreted programming language.
 - Remember things in python.
 - Use the files to re - learn.
 
+## Recomended books:
+- Python for Data Analysis - Wes McKinney
+- 
