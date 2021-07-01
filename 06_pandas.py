@@ -94,4 +94,9 @@ print(ex.pop("a"))
 #  sort_index
 #  describe()
 
-#139
+# concat preserve index
+# you can ignore_index = True
+# to align by index duplicating columns if needed axis = 1
+# merge
+# join
+
