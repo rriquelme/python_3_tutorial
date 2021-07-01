@@ -57,5 +57,41 @@ players = pd.Series([14,54,38,None], name="counts", index = ["a","b","c","d"])
 print(players.fillna(0))
 print(players)
 
+#useful for inspect 
+print(players.count())
+print(players.unique())
+print(players.duplicated())
+print(players.drop_duplicates())
+print(players.dropna())
 
-# WIP
+print(players.append(players))
+print(players.sort_values())
+print(players.sort_index(ascending=False))
+print(players.map(lambda x:x+2))
+print(players.apply(lambda x:x+2))
+# to save .to_csv
+# to read .read_csv
+
+# DataFrames: each column is a series
+# list of dic
+ex = pd.DataFrame([{"a":1, "b":2},{"a":5,"b":9}],index=["z","y"])
+print(ex)
+# dic of lists
+ex2 = pd.DataFrame({"a":[1,2,3,4,5,6],"b":[4,5,6,7,8,9]})
+print(ex2)
+
+print(ex.append(ex2))
+print(pd.concat([ex,ex2]))
+ex["x"] = pd.Series([1,2], index = ["z","y"])
+print(ex)
+print(ex.drop("y"))
+print(ex.pop("a"))
+# first elements .head
+# lasts elements .tails 
+#  loc
+#  iloc
+#  sort_values
+#  sort_index
+#  describe()
+
+#139
