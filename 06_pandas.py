@@ -2,7 +2,7 @@
 # What does it have?
 # How to use it?
 import pandas as pd
-
+import sys
 # Dimensions of pandas structures:
 # Series: 1D
 # DataFrame: 2D
@@ -10,11 +10,15 @@ import pandas as pd
 
 # Series:
 players = pd.Series([14,54,38,None], name="counts")
-print(players)
+print(players.size)
 print(players.index)
 
 players = pd.Series([14,54,38,None], name="counts", index = ["a","b","c","d"])
-print(players)
+print(players.count())
+print(players.std())
+sc = players
+x= int(sc.count())/int(sc.size) * 100
+print(x)
 print(players.index)
 print(players["a"])
 print(players.count()) # doesnt not cound NaN 
@@ -65,8 +69,11 @@ print(players.drop_duplicates())
 print(players.dropna())
 
 print(players.append(players))
+# Sort values
 print(players.sort_values())
 print(players.sort_index(ascending=False))
+
+# Using lambda function, recommendation use always apply...
 print(players.map(lambda x:x+2))
 print(players.apply(lambda x:x+2))
 # to save .to_csv
@@ -80,16 +87,23 @@ print(ex)
 ex2 = pd.DataFrame({"a":[1,2,3,4,5,6],"b":[4,5,6,7,8,9]})
 print(ex2)
 
+# To join dataframes
 print(ex.append(ex2))
 print(pd.concat([ex,ex2]))
 ex["x"] = pd.Series([1,2], index = ["z","y"])
 print(ex)
+# to drop a column use pop, and to delete a row use drop
 print(ex.drop("y"))
 print(ex.pop("a"))
 # first elements .head
 # lasts elements .tails 
-#  loc
-#  iloc
+print("---")
+print(ex)
+# To acces index like it is there, use loc, to access like list use iloc
+print(ex.loc["y"])
+print(ex.iloc[1])
+
+# The Values and the indexes can be sorted: 
 #  sort_values
 #  sort_index
 #  describe()
