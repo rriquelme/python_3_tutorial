@@ -27,4 +27,5 @@ Python is an open source object-oriented interpreted programming language.
 
 ## Recomended books:
 - Python for Data Analysis - Wes McKinney
-- 
+- Data Structures and Algorithms in Python - Michael T. Goodrich, Roberto Tamassia, Michael H. Goldwasse
+- Learning the Pandas Library Python Tools for Data Munging, Analysis, and Visual by Matt Harrison Michael 
