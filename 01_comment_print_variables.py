@@ -24,7 +24,7 @@ print('var_1 is a ',type(var_1)) # Use 'type' to check which type of variable li
 print('var_2 is a ',type(var_2)) # or str
 print('var_3 is a ',type(var_3)) # or float
 
-# List, Dictionary, Tuples
+# List
 
 print('List:')
 L = [2, 5, 8, 'x', 'y'] # This is a list 
@@ -38,6 +38,17 @@ print(L[-2:]) # from the element [-2] until the end
 L.append('z') #This is the Way to append elements to a list
 print(L) # View the list with the last element appended.
 
+# List Methods:
+#append
+#insert
+#extend
+#del
+#remove
+#pop
+#reverse
+
+
+# Dictionary, Tuples
 print('Dictionary:')
 D = {'k1': 123, 'k2': 456, 1:'v3'} # This is a Dictionary syntax key:value
 print(D) # This is how to print a dictionary
