@@ -49,13 +49,15 @@ print(L.insert(2,'inserted')
 #remove
 #pop
 #reverse
-
+#copy
 
 # Dictionary, Tuples
 print('Dictionary:')
 D = {'k1': 123, 'k2': 456, 1:'v3'} # This is a Dictionary syntax key:value
 print(D) # This is how to print a dictionary
 print(D['k1']) # This is how to print a value with a given key
+print(D.get('k1'))
+#pop, popitem, del, clear, copy, sorted(keys), update
 
 print ('Tuple:')
 a, b = 1, 5 # The values can be assigned to each element separated with commas
