@@ -39,8 +39,11 @@ L.append('z') #This is the Way to append elements to a list
 print(L) # View the list with the last element appended.
 
 # List Methods:
-#append
-#insert
+#append: add an element
+print(L.append('Hello')
+print(L.append(['Hello','world'])
+#insert : index and what to insert
+print(L.insert(2,'inserted')
 #extend
 #del
 #remove
@@ -58,3 +61,4 @@ print ('Tuple:')
 a, b = 1, 5 # The values can be assigned to each element separated with commas
 print ('a',a) # value of a
 print ('b',b) # value of b
+# count index sorted
