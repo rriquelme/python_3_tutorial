@@ -45,6 +45,7 @@ print(L.append(['Hello','world'])
 #insert : index and what to insert
 print(L.insert(2,'inserted')
 #extend
+print(L.extend(['before last','new last']
 #del
 #remove
 #pop
