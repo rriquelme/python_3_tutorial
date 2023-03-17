@@ -15,8 +15,8 @@ Python is an open source object-oriented interpreted programming language.
 - 05_numpy.py - Basic use of ndarrays, could be improved but the basic is already there.
 - 06_pandas.py - Basic pandas commands, in the future there will be added more complex commands
 - 07_os.py - for basic management folder structure and OS
-- 08_serial.py - WIP
-- 0_PyQt5.py - TODO
+- 08_serial.py - For basic communication serial, for example with an Arduino
+- 09_PyQt5.py - WIP
 - 0_arcade.py - TODO
 
 ## Objectives:
