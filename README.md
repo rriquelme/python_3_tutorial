@@ -18,6 +18,7 @@ Python is an open source object-oriented interpreted programming language.
 - 08_serial.py - For basic communication serial, for example with an Arduino
 - 09_PyQt5.py - Basic Window on pyqt5
 - 10_arcade.py - WIP
+- 11_sklearn.py WIP
 
 ## Objectives:
 - Remember things in python.
